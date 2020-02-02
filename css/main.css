@@ -163,11 +163,12 @@ body {
   font-size: 17px;
 }
 
+
 .wrap {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 80vh;
+  height: 99vh;
 }
 
 .hello {
@@ -203,7 +204,17 @@ a:hover {
 
 
 
+@media (max-width: 640px) {
 
+  body {
+    background-size: 416px;
+  }
+
+  .wrap {
+    height: 65vh;
+  }
+
+}
 
 
 
