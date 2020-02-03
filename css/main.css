@@ -184,7 +184,7 @@ body {
 .more {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   height: 99vh;
   padding: 0 24px;
@@ -196,13 +196,14 @@ p {
   padding: 16px 0;
 }
 
-h3 {
-  font-size: 35px;
-  letter-spacing: 1px;
-  text-align: center;
-  opacity: 0.3
-
+.more p {
+    max-width: 680px;
 }
+
+.muted {
+  opacity: .5
+}
+
 
 a {
   font-style: italic;
@@ -210,12 +211,15 @@ a {
   text-decoration: underline;
 }
 
+i {
+  font-style: italic;
+}
+
 a:hover {
   color: #DFE0E1;
   text-decoration: none;
   background: #221FD3;
 }
-
 
 
 @media (max-width: 640px) {
