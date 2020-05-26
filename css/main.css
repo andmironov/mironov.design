@@ -438,12 +438,8 @@ h3 a:hover {
     padding: 0; }
   .work .screens {
     width: 100%;
-    display: block;
-    overflow-x: scroll; }
-  .screens-inner {
-    display: flex;
-    width: auto;
     flex-wrap: nowrap;
+    overflow-x: scroll;
     justify-content: left;
     align-items: flex-start;
     padding: 32px 0; }
