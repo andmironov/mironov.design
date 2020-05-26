@@ -190,6 +190,9 @@ h2 {
   padding: 200px 24px 100px;
   opacity: 0.4; }
 
+h2.top {
+  padding: 200px 24px 200px; }
+
 .work {
   padding: 100px 0;
   display: flex;
