@@ -25986,6 +25986,7 @@ let ScrollOver = require("./lib/ScrollOver.js");
 let animateScroll = require("./lib/animatescroll.js");
 let d3 = require("d3");
 let wrap = document.querySelectorAll(".outer-wrap")[0];
+let recent = document.querySelectorAll(".recent")[0];
 
 new ScrollOver({
   keyframes: [{
@@ -25994,6 +25995,16 @@ new ScrollOver({
     animate: [{
       property: "backgroundColor",
       range: ["rgb(255, 255, 255)", "rgb(233, 234, 235)"]
+    }]
+  }, {
+    element: recent,
+    domain: [150, 700],
+    animate: [{
+      property: "opacity",
+      range: [".4", "0"]
+    }, {
+      property: "translateY",
+      range: ["0", "40"]
     }]
   }]
 }).init();
