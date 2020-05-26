@@ -457,6 +457,8 @@ h3 a:hover {
     margin: 0 8px 0 8px;
     flex-shrink: 0;
     flex-grow: 0; }
+  .work .screen:first-child {
+    margin: 0 8px 0 16px; }
   .work .description {
     max-width: 100%;
     padding: 0 24px; }
