@@ -443,7 +443,11 @@ h3 a:hover {
     max-width: 100%;
     padding: 0; }
   h1 {
-    padding: 200px 24px 0; }
+    padding: 150px 24px 0; }
+  h2 {
+    padding: 150px 24px 50px; }
+  h2.top {
+    padding: 200px 24px 200px; }
   .contact {
     left: 50%;
     width: 160px;
