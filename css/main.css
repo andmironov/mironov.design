@@ -153,13 +153,19 @@ select[multiple] {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   background: #F5F5F5;
-  background-size: 516px;
   color: #000000;
   line-height: 1.2;
   font-size: 20px; }
 
+body.photos {
+  background: #000000;
+  color: #FFFFFF; }
+
 .outer-wrap {
   background-color: white; }
+
+.photos .outer-wrap {
+  background-color: black; }
 
 .wrap {
   max-width: 1180px;
@@ -437,6 +443,30 @@ a:hover {
 
 h3 a:hover {
   text-decoration: none; }
+
+.back {
+  position: fixed;
+  left: 32px;
+  top: 32px; }
+
+.back a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.gallery {
+  margin: 200px 0; }
+
+.photo-wrap {
+  max-width: 1180px;
+  margin: 0 0 400px 0; }
+
+.photo-wrap--vertical {
+  max-width: 760px;
+  margin: 0 auto; }
+
+.photo-wrap img {
+  max-width: 100%;
+  max-height: 100%; }
 
 @media (max-width: 1181px) {
   .wrap {
