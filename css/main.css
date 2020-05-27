@@ -246,7 +246,7 @@ h2.top {
 .ui-pieces-inner {
   width: 1151px;
   height: 783px;
-  background-image: url(../img/rr@2x.png);
+  background-image: url(../img/rambler@2x.png);
   background-size: cover;
   background-position: center;
   margin: 32px 0 0 0; }
@@ -467,6 +467,9 @@ h3 a:hover {
 .photo-wrap img {
   max-width: 100%;
   max-height: 100%; }
+
+.top a {
+  text-decoration: none; }
 
 @media (max-width: 1181px) {
   .wrap {
