@@ -26021,6 +26021,10 @@ let overlays = document.querySelectorAll(".overlay");
 let activePopup = null;
 let activeOverlay = null;
 
+setTimeout(function () {
+  addClassToElement(buttons[0], "button--shown");
+}, 1400);
+
 buttons[0].addEventListener('click', function (event) {
   if (activePopup) {
     closeActivePopup();
