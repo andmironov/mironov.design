@@ -304,6 +304,9 @@ h2.top {
   opacity: 0;
   transition: opacity 0.4s ease, transform 0.5s cubic-bezier(0.175, 0.885, 0.135, 1.1); }
 
+.photos .contact {
+  background-color: #404040; }
+
 .contact.button--shown {
   opacity: 1;
   transform: translate3d(0, 0, 0); }
@@ -365,7 +368,7 @@ h2.top {
 .popup {
   box-sizing: border-box;
   width: 350px;
-  height: 252px;
+  height: 208px;
   margin: 0;
   background-color: black;
   border-radius: 16px;
@@ -378,6 +381,9 @@ h2.top {
   visibility: hidden;
   transition-delay: .2s;
   transition: visibility 0.5s linear 0s, opacity 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.135, 1.425); }
+
+.photos .popup {
+  background-color: #404040; }
 
 .popup.popup--shown {
   transition-delay: 0s;
